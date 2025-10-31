@@ -29,6 +29,12 @@ gestao_products_piaget-mongobdpiaget/
 └── 📄 package.json                   # Dependências do projeto
 🔧 Tecnologias Utilizadas
 
+
+
+
+
+
+
 ## Tecnologia	Versão	Finalidade
 Node.js	v22.14.0	Runtime JavaScript
 Express.js	^4.18.2	Framework web
@@ -182,31 +188,6 @@ Deploy local funcionando
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 🗄️ Como criar o banco de dados no MongoDB Atlas:
 1. Acesse seu cluster:
 No MongoDB Atlas, clique no seu cluster "Cluster0"
@@ -235,6 +216,9 @@ db.produtos.insertOne({
   precoDoProduto: 99.99
 })
 
+
+
+
 ## 🔧 Alternativa: Atualize sua string de conexão
 Se preferir, você pode usar o banco de dados padrão sem criar um específico. Nesse caso, atualize sua string de conexão no arquivo .env:
 
@@ -245,6 +229,17 @@ Opção 2 - Sem banco específico (será criado automaticamente):
 env
 MONGODB_URI=mongodb+srv://olifrans_db:Piaget%40777@cluster0.av8nzhb.mongodb.net/?retryWrites=true&w=majority
 
+
+
+
+
+
+
+
+Funcionado
+
+MONGODB_URI=mongodb+srv://olifrans_db:Piaget40777@cluster0.av8nzhb.mongodb.net/gestao-produtos?retryWrites=true&w=majority
+PORT=3000
 
 ## 📋 Passo a passo visual no Atlas:
 No seu dashboard do Atlas, clique no botão "Browse Collections"
