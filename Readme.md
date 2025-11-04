@@ -1,4 +1,9 @@
 
+# Permissão para NodeJs
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser  
+
+
+
 # 📁 Estrutura do Projeto Completa:
 
 ## Aceso ao mongoDB
