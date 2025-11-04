@@ -1,4 +1,4 @@
-
+<!-- 
 # Permissão para NodeJs
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser  
 
@@ -287,4 +287,4 @@ Os produtos que você criar aparecerão lá
 
 
 
-
+ -->
