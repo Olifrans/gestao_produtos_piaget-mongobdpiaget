@@ -6,13 +6,6 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 # 📁 Estrutura do Projeto Completa:
 
-## Aceso ao mongoDB
-Username: olifrans_db
-Password: Piaget40777
-
-
-
-
 # 📋 Documentação do Projeto - Gestão de Produtos
 ## 🏗️ Estrutura Geral do Projeto
 gestao_products_piaget-mongobdpiaget/
@@ -48,6 +41,7 @@ Mongoose	^7.5.0	ODM para MongoDB
 EJS	^3.1.9	Template engine
 Method-Override	^3.0.0	Suporte a PUT/DELETE
 
+
 ## Dotenv	^16.3.1	Gerenciamento de variáveis
 📊 Modelo de Dados - Produto
 {
@@ -59,6 +53,7 @@ Method-Override	^3.0.0	Suporte a PUT/DELETE
   createdAt: Date,                  // Data de criação automática
   updatedAt: Date                   // Data de atualização automática
 }
+
 
 ## 🛣️ Rotas da API
 📋 Lista de Rotas
@@ -72,17 +67,17 @@ GET	/produtos/:id/edit	Formulário de edição	edit.ejs
 PUT	/produtos/:id	Atualiza produto	-
 DELETE	/produtos/:id	Remove produto	-
 
+
 ## 🔐 Configuração de Ambiente
 Arquivo .env
 MONGODB_URI=mongodb+srv://olifrans_db:Piaget40777@cluster0.av8nzhb.mongodb.net/gestao-produtos?retryWrites=true&w=majority
 PORT=3000
-Configuração do MongoDB Atlas
-Cluster: Cluster0
 
+## Configuração do MongoDB Atlas
+Cluster: Cluster0
 Database: gestao-produtos
 
 Collection: produtos
-
 String de conexão: URI do MongoDB Atlas
 
 
@@ -90,6 +85,7 @@ String de conexão: URI do MongoDB Atlas
 1. Instalação das Dependências
 npm install express@4.18.2 mongoose@7.5.0 ejs@3.1.9 method-override@3.0.0 dotenv@16.3.1 --save
 npm install --save-dev nodemon@3.0.1
+
 
 ## 2. Execução do Projeto
 
@@ -108,6 +104,7 @@ Create: Adicionar novos produtos
 Read: Listar e visualizar produtos
 Update: Editar produtos existentes
 Delete: Remover produtos
+
 
 ## 🎯 Validações
 Campos obrigatórios
@@ -176,10 +173,6 @@ Deploy local funcionando
 🏢 Projeto: Sistema de Gestão de Produtos
 🛠️ Stack: Node.js + Express + MongoDB + EJS
 📅 Versão: 1.0.0
-
-
-
-
 
 
 
